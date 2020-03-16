@@ -12,10 +12,12 @@ export default class PersonStats extends Component {
     }
     personSubmit = (event) =>{
         this.setState({
+            // setting the state here doesn't actually do anything since you're updating the state inline
             name:event.target.value,
             age:event.target.value,
             feeling:event.target.value
         })
+        // no need to pass `this`
         event.preventDefault(this);
     }
     render() {

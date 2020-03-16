@@ -1,5 +1,5 @@
 # react-forms-1
-
+### Nice use of the selection field. Check you `PersonStats.jsx` file for comments
 ### Exercise 1: Basic Form with a Stateful Component
 - Create a new react app called `feelings-app`
 - Create a `AppContainer` component to maintain shared stat
